@@ -1,0 +1,4 @@
+starlette
+fastmcp
+httpx
+uvicorn
