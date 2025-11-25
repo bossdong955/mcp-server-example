@@ -72,6 +72,8 @@ VS Code Cline / Claude Desktop `mcpServers` 示例（将路径替换成你本机
 
 > 已在脚本中调用 `mcp.run(transport="stdio")`，无需再使用 `mcp run ...`。
 
+![Stdio 模式配置步骤](assets/image2.png)
+
 ---
 
 ### 2. SSE（远程流式）
@@ -84,6 +86,8 @@ python resou_sse.py --host 0.0.0.0 --port 8006
 
 - URL: `http://<host>:8006/sse`
 - 可选 Header：`Authorization` 等自定义认证信息（如有需要）
+
+![SSE 模式配置步骤](assets/image.png)
 
 ---
 
@@ -107,9 +111,3 @@ python resou_streamable_http.py --host 0.0.0.0 --port 8005
 3. **网络超时**：`hot_search` 默认 10s 超时。可在脚本中调整 `httpx.AsyncClient` 的 `timeout` 参数。
 
 ---
-
-## ✅ 近期改动
-
-- 切换至独立的 `fastmcp` 包，移除对旧 `mcp` CLI 的依赖。
-- 为不同传输方式提供了独立脚本（stdio / sse / streamable-http），启动方式更直观。
-- 更新示例配置，默认通过 `python your_script.py` 即可运行。
