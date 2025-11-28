@@ -1,8 +1,8 @@
 
 
-# Weibo MCP Server
+#  MCP Server Example
 
-获取前 N 条微博热搜的 MCP 服务，基于 `fastmcp` 构建，内置 **Stdio、本地 SSE、Streamable HTTP** 三种运行脚本，适配本地和远程多端场景。
+通过获取前 N 条微博热搜的 MCP 服务进行示例，演示基于 `fastmcp` 构建，内置 **Stdio、本地 SSE、Streamable HTTP** 三种MCP运行脚本，适配本地和远程多端场景。
 
 ---
 
