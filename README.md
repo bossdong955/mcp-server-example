@@ -9,12 +9,12 @@
 ## 🚀 快速开始
 
 ```bash
-git clone https://github.com/bossdong955/weibo-mcp-server.git
+git clone https://github.com/bossdong955/mcp-server-example.git
 cd weibo-mcp-server
 
 # 创建并进入 Conda 环境
-conda create -n weibo-mcp-server python=3.11
-conda activate weibo-mcp-server
+conda create -n mcp-server-example python=3.11
+conda activate mcp-server-example
 
 # 安装依赖（注意：请确认本机已卸载旧版 mcp 包）
 pip install -r requirements.txt
